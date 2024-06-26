@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:layout_margin="20dp">
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:text="Blink" />
+
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="101dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn1"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginRight="10dp"
+        android:layout_toRightOf="@+id/btn1"
+        android:text="Trans" />
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="104dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="11dp"
+        android:layout_marginRight="10dp"
+        android:layout_toRightOf="@+id/btn1"
+        android:text="Zoom" />
+
+
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="113dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn1"
+        android:layout_marginTop="4dp"
+        android:layout_marginRight="10dp"
+        android:text="Fade" />
+
+    <Button
+        android:id="@+id/btn5"
+        android:layout_width="102dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn3"
+        android:layout_marginLeft="9dp"
+        android:layout_marginTop="-48dp"
+        android:layout_marginRight="10dp"
+        android:layout_toRightOf="@+id/btn2"
+        android:text="Rotate" />
+
+    <Button
+        android:id="@+id/btn6"
+        android:layout_width="106dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn5"
+        android:layout_marginLeft="133dp"
+        android:layout_marginTop="1dp"
+        android:layout_toRightOf="@+id/btn4"
+        android:text="Stop"
+        android:backgroundTint="@color/black"/>
+
+    <TextView
+        android:id="@+id/animationEx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World"
+        android:layout_centerInParent="true"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="25dp" />
+
+
+</RelativeLayout>
